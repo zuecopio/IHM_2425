@@ -1,0 +1,74 @@
+QWidget {
+    background-color: #2C2C2C;  /* Dark gray                         */
+    color: #F7F7F7;             /* White                             */
+}
+
+QPushButton {
+    background-color: #3D3D3D;  /* Medium gray                       */
+    border: 1px solid #3B3B3B;  /* Border color                      */
+    border-radius: 10px;        /* Rounded corners                   */
+    font: 500 26pt;             /* Font weight and size              */
+}
+
+QPushButton:enabled {
+    background-color: #3D3D3D;  /* Color for enabled buttons         */
+    border: 1px solid #3B3B3B;  /* Border color for enabled buttons  */
+    color: #F7F7F7;             /* Text color for enabled buttons    */
+}
+
+QPushButton:hover {
+    background-color: #484848;  /* Color when hovering over buttons  */
+}
+
+QPushButton:pressed {
+    background-color: #4E4E4E;  /* Color when the button is pressed  */
+}
+
+QPushButton:disabled {
+    background-color: #2F2F2F;  /* Color for disabled buttons        */
+    border: 1px solid #2F2F2F;  /* Border color for disabled buttons */
+    color: #3D3D3D;             /* Text color for disabled buttons   */
+}
+
+#pushButton_1,
+#pushButton_2,
+#pushButton_3,
+#pushButton_4,
+#pushButton_5,
+#pushButton_6,
+#pushButton_7,
+#pushButton_8
+{
+    background-color: #2F2F2F;  /* Color when hovering over buttons  */
+    border: 2px solid #3D3D3D;  /* Border color for disabled buttons */
+    color: #3D3D3D;             /* Text color for disabled buttons   */
+}
+
+#startButton {
+    font: 500 18pt;             /* Font weight and size              */
+    color: #396CE8;             /* Text color for disabled buttons   */
+    padding: 8px;
+}
+
+#timeValueLabel, #movesValueLabel {
+    color : #396CE8;
+}
+
+#titleLabel, #authorLabel {
+    color : #396CE8;
+    background-color: #2F2F2F;
+}
+
+#frame, #frame_2 {
+    background-color: #2F2F2F;
+    border-radius: 10px;
+}
+
+#lineSeparator1, #lineSeparator2 {
+    background-color: #4E4E4E;
+    border-radius: 10px;
+}
+
+#timeValueLabel, #movesValueLabel {
+    color : #396CE8;
+}

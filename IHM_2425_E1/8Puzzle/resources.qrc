@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/">
+        <file>media/images/pause.png</file>
+        <file>media/images/play.png</file>
+        <file>media/images/redo.png</file>
+        <file>media/images/reset.png</file>
+        <file>media/images/undo.png</file>
+        <file>styles/dark.qss</file>
+        <file>styles/light.qss</file>
+        <file>media/images/dark.png</file>
+        <file>media/images/light.png</file>
+        <file>media/images/language.png</file>
+        <file>translations/8puzzle_en_GB.qm</file>
+        <file>translations/8puzzle_en_GB.ts</file>
+        <file>translations/8puzzle_es_ES.qm</file>
+        <file>translations/8puzzle_es_ES.ts</file>
+        <file>media/images/home.png</file>
+    </qresource>
+</RCC>

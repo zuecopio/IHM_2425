@@ -1,0 +1,71 @@
+QWidget {
+    background-color: #EBEBEB;  /* Light gray background             */
+    color: #333333;             /* Dark gray text color              */
+}
+
+QPushButton {
+    background-color: #D8D8D8;  /* Medium gray background            */
+    border: 1px solid #D6D6D6;  /* Border color                      */
+    border-radius: 10px;        /* Rounded corners                   */
+    font: 500 26pt;             /* Font weight and size              */
+}
+
+QPushButton:enabled {
+    background-color: #D8D8D8;  /* Medium gray for enabled buttons   */
+    border: 1px solid #D6D6D6;  /* Border color for enabled buttons  */
+    color: #333333;             /* Text color for enabled buttons    */
+}
+
+QPushButton:hover {
+    background-color: #D3D3D3;  /* Color when hovering over buttons  */
+}
+
+QPushButton:pressed {
+    background-color: #C9C9C9;  /* Color when the button is pressed  */
+}
+
+QPushButton:disabled {
+    background-color: #E5E5E5;  /* Color for disabled buttons        */
+    border: 1px solid #E5E5E5;  /* Border color for disabled buttons */
+    color: #D1D1D1;             /* Text color for disabled buttons   */
+}
+
+#pushButton_1,
+#pushButton_2,
+#pushButton_3,
+#pushButton_4,
+#pushButton_5,
+#pushButton_6,
+#pushButton_7,
+#pushButton_8
+{
+    background-color: #E5E5E5;  /* Color when hovering over buttons  */
+    border: 2px solid #D8D8D8;  /* Border color for disabled buttons */
+    color: #CFCFCF;             /* Text color for disabled buttons   */
+}
+
+#startButton {
+    font: 500 18pt;             /* Font weight and size              */
+    color: #396CE8;             /* Text color for disabled buttons   */
+    padding: 8px;
+}
+
+#titleLabel, #authorLabel {
+    color : #396CE8;
+    background-color: #E5E5E5;
+}
+
+#frame, #frame_2 {
+    background-color: #E5E5E5;
+    border-radius: 10px;
+}
+
+#lineSeparator1, #lineSeparator2 {
+    background-color: #C9C9C9;
+    border-radius: 10px;
+}
+
+#timeValueLabel, #movesValueLabel {
+    color : #396CE8;
+}
+
